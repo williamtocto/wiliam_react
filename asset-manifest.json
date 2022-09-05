@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/william_react/static/css/main.69eda509.chunk.css",
+    "main.js": "/william_react/static/js/main.419d7192.chunk.js",
+    "main.js.map": "/william_react/static/js/main.419d7192.chunk.js.map",
+    "runtime-main.js": "/william_react/static/js/runtime-main.a2756774.js",
+    "runtime-main.js.map": "/william_react/static/js/runtime-main.a2756774.js.map",
+    "static/css/2.968f8476.chunk.css": "/william_react/static/css/2.968f8476.chunk.css",
+    "static/js/2.2ae846b4.chunk.js": "/william_react/static/js/2.2ae846b4.chunk.js",
+    "static/js/2.2ae846b4.chunk.js.map": "/william_react/static/js/2.2ae846b4.chunk.js.map",
+    "index.html": "/william_react/index.html",
+    "precache-manifest.411c31fc11d7cfac8c5fae5602599825.js": "/william_react/precache-manifest.411c31fc11d7cfac8c5fae5602599825.js",
+    "service-worker.js": "/william_react/service-worker.js",
+    "static/css/2.968f8476.chunk.css.map": "/william_react/static/css/2.968f8476.chunk.css.map",
+    "static/css/main.69eda509.chunk.css.map": "/william_react/static/css/main.69eda509.chunk.css.map",
+    "static/js/2.2ae846b4.chunk.js.LICENSE.txt": "/william_react/static/js/2.2ae846b4.chunk.js.LICENSE.txt",
+    "static/media/primereact.min.css": "/william_react/static/media/line.567f5738.gif",
+    "static/media/theme.css": "/william_react/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
+    "static/media/primeicons.css": "/william_react/static/media/primeicons.79432094.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2756774.js",
+    "static/css/2.968f8476.chunk.css",
+    "static/js/2.2ae846b4.chunk.js",
+    "static/css/main.69eda509.chunk.css",
+    "static/js/main.419d7192.chunk.js"
+  ]
+}
