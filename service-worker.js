@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wiliam_react/precache-manifest.a9c8362830016714af427b74abeefa15.js"
+  "/wiliam_react/precache-manifest.e16b8da168e4d927299039bab9114e16.js"
 );
 
 self.addEventListener('message', (event) => {

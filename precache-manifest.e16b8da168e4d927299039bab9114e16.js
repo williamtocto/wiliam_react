@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "265d649d97bf73ce00419e070891d271",
+    "revision": "fc74c6e0620970b7dc610405350cac5c",
     "url": "/wiliam_react/index.html"
   },
   {
-    "revision": "9f617a08f24302c0fa13",
+    "revision": "941f269919b83420e774",
     "url": "/wiliam_react/static/css/2.2a5ec534.chunk.css"
   },
   {
-    "revision": "24ebbe061a170bad00b5",
+    "revision": "7249c372795e7abecd34",
     "url": "/wiliam_react/static/css/main.69eda509.chunk.css"
   },
   {
-    "revision": "9f617a08f24302c0fa13",
-    "url": "/wiliam_react/static/js/2.2ae846b4.chunk.js"
+    "revision": "941f269919b83420e774",
+    "url": "/wiliam_react/static/js/2.de63a009.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/wiliam_react/static/js/2.2ae846b4.chunk.js.LICENSE.txt"
+    "url": "/wiliam_react/static/js/2.de63a009.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24ebbe061a170bad00b5",
-    "url": "/wiliam_react/static/js/main.16fd8e49.chunk.js"
+    "revision": "7249c372795e7abecd34",
+    "url": "/wiliam_react/static/js/main.b32c93e6.chunk.js"
   },
   {
     "revision": "bd0a0af82b7b70f197b7",
