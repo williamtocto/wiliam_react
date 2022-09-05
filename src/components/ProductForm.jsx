@@ -18,9 +18,11 @@ const ProductForm = (props) => {
 
   const initialProductState = {
     _id: null,
-    name: "",
-    price: 0,
-    expiry_date: null,
+    id: 0,
+    nombre: "",
+    precio: 0,
+    cantidad: 0,
+    descripcion: null,
   };
 
   const [productData, setProductData] = useState(initialProductState);
@@ -84,7 +86,7 @@ const ProductForm = (props) => {
           <div className="p-float-label">
             <InputText
               value={productData.name}
-              onChange={(e) => updateField(e.target.value.trim(), "name")}
+              onChange={(e) => updateField(e.target.value.trim(), "nombre")}
             />
             <label>Nombre:</label>
           </div>
@@ -92,30 +94,28 @@ const ProductForm = (props) => {
           <div className="p-float-label">
             <InputNumber
               value={productData.price}
-              onChange={(e) => updateField(e.target.value, "price")}
+              onChange={(e) => updateField(e.target.value, "precio")}
               mode="currency"
               currency="USD"
             />
             <label>Precio:</label>
           </div>
-          <br />
           <div className="p-float-label">
-            <Calendar
-              value={
-                productData.expiry_date &&
-                new Date(productData.expiry_date + " ")
-              }
-              onChange={(e) =>
-                updateField(
-                  e.target.value.toISOString().substring(0, 10),
-                  "expiry_date"
-                )
-              }
-              dateFormat="yy-mm-dd"
+            <InputNumber
+              value={productData.cantidad}
+              onChange={(e) => updateField(e.target.value, "cantidad")}
             />
-            <label>Fecha de caducidad:</label>
+            <label>Precio:</label>
           </div>
           <br />
+          <br />
+          <div className="p-float-label">
+            <InputText
+              value={productData.descripcion}
+              onChange={(e) => updateField(e.target.value.trim(), "descripcion")}
+            />
+            <label>Descripcion:</label>
+          </div>
         </div>
       </Dialog>
     </div>
